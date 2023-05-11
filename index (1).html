@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>File Upload and Download</title>
+    <link rel="stylesheet" href="CSS.css">
+</head>
+<body>
+    <h1>KCSE problems help</h1>
+    
+    <h2>Instructions to get help from the platform (or offer help)</h2>
+    <h4>If you need help</h4>
+    <h5>1. Take a good photo of the problem(s) 2. Upload it to the platform 3. Wait for others to assist you</h5>
+    <h4>If you want to offer help</h4>
+    <h5>1.Download the questions you feel comfortable answering
+    <h5>2. Solve them on a piece of paper </h5>
+    <h5>3. Take a good photo of the solutions(s)</h5>
+    <h5>4.Upload it here using the file name of the uploaded question(s)</h5>
+    <form method="post" enctype="multipart/form-data" id="uploadForm">
+        <input type="file" id="fileInput" name="fileInput">
+        <button type="submit" id="uploadButton">Upload</button>
+    </form>
+
+    <ul id="fileList">
+        <li>No files uploaded yet.</li>
+    </ul>
+
+    <script src="index.js"></script>
+</body>
+</html>
